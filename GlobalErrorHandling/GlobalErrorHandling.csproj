@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>IM-GlobalErrorHanling</PackageId>
+    <Title>Global Error Handler And Transaction</Title>
+    <Version>1.0.0</Version>
+    <Authors>IBRAHIM MESE</Authors>
+    <Company>IBRAHIM MESE</Company>
+    <Product>Global Error Handler And Transaction</Product>
+    <Description>Global Error Handler And Transaction</Description>
+    <Copyright>Copyright 2024</Copyright>
+    <PackageProjectUrl>www.linkedin.com/in/ibrahimmese</PackageProjectUrl>
+    <PackageIcon>gimp-icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/ibrhimmese/EntityFrameworkCoreGlobalErrorHandlingAndTransaction.Nuget</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>global error handler handling transaction</PackageTags>
+    <PackageReleaseNotes>Global Error Handling And Transaction Nuget Package</PackageReleaseNotes>
+    <NeutralLanguage>tr-TR</NeutralLanguage>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ibrah\Downloads\gimp-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.1" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+</Project>
